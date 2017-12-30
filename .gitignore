@@ -1,0 +1,8 @@
+# 编辑器
+**/.vscode/
+
+# MacOS系统
+.DS_Store
+
+# 回收站
+**/$RECYCLE.BIN/
