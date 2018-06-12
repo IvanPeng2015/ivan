@@ -12,6 +12,7 @@
 - [JSON数据](JSON数据.md)
 - [K组合子](K组合子.md)
 - [NPM服务器](NPM服务器.md)
+- [Promise实现](Promise实现.md)
 - [React设计](React设计.md)
 - [RESTful-API设计](RESTful-API设计.md)
 - [Vue问题](Vue问题.md)
