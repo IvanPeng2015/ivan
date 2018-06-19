@@ -7,8 +7,6 @@
 - [CSS伪类](CSS伪类.md)
 - [HTTP协议](HTTP协议.md)
 - [IM需要解决的问题](IM需要解决的问题.md)
-- [JavaScript事件循环机制](JavaScript事件循环机制.md)
-- [JavaScript运行时环境](JavaScript运行时环境.md)
 - [JSON数据](JSON数据.md)
 - [K组合子](K组合子.md)
 - [NPM服务器](NPM服务器.md)
@@ -41,3 +39,4 @@
 - [闭包](闭包.md)
 - [静态类型](静态类型.md)
 - [鼠标事件](鼠标事件.md)
+- [事件循环](事件循环.md)
