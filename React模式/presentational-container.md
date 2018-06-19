@@ -1,4 +1,4 @@
-# [React模式](Readme.md)/Presentational and container components
+# [React模式](.md)/Presentational and container components
 
 将组件构成拆分为presentational和container两个不同的level负责不同层次的职责，并不是技术维度有区别，而是目的维度有区别，所以他们遵从的规则并不是确定死的。这种拆分能解决如下问题：
 

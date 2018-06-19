@@ -41,7 +41,7 @@
 - [RESTful-API设计](RESTful-API设计.md)
 
 框架分析
-- [React模式](React模式/Readme.md)
+- [React模式](React模式/README.md)
 - [小程序框架分析](小程序框架分析.md)
 - [Vue问题](Vue模式/Vue问题.md)
 
