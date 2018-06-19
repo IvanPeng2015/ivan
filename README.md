@@ -43,7 +43,7 @@
 框架分析
 - [React模式](React模式/Readme.md)
 - [小程序框架分析](小程序框架分析.md)
-- [Vue问题](Vue问题.md)
+- [Vue问题](Vue模式/Vue问题.md)
 
 其它
 - [IM需要解决的问题](IM需要解决的问题.md)

@@ -12,6 +12,8 @@
 
 - setState function
 
+- [React设计](React设计.md)
+
 ## react应用组件模式
 
 - JavaScript data to JSX
