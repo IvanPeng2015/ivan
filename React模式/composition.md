@@ -1,4 +1,4 @@
-# [React模式](.md)/Composition
+# [React模式](README.md)/Composition
 
 为了让react组件高度可组合，提供了react node分发的能力，react提供了API`props.children`、提供了在props上直接传JSX值的能力。（Specifying Children等效于在 _调用_ 中另外传一个Specifying Attributes，语义相同，语法不同）。
 

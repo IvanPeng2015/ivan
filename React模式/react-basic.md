@@ -1,4 +1,4 @@
-# [React模式](.md)/React basic theoretical concepts
+# [React模式](README.md)/React basic theoretical concepts
 
 react思路模型, deductive reasoning that lead us to the design.
 

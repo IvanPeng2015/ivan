@@ -1,4 +1,4 @@
-## [React模式](.md)/High-Order component
+## [React模式](README.md)/High-Order component
 
 官方定义：高阶组件HOC即输入一个组件输出另一个组件的函数，HOC本质上仍然是一个无副作用的纯函数，是React中主要的组件复用技术。普通组件将props转化为UI，而HOC将一组件转化为另一组件。
 
