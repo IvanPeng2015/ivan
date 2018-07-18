@@ -166,3 +166,79 @@ Promise._unhandledRejectionFn = function _unhandledRejectionFn(err) {
   }
 };
 ```
+
+
+
+Question：下面四个使用promise的语句之间的不同点在哪儿？
+
+```js
+doSomething().then(() => {
+  return doSomethingElse();
+})；
+
+doSomething().then(() => {
+  doSomethingElse();
+});
+
+doSomething().then(doSomethingElse());
+
+doSomething().then(doSomethingElse);
+```
+Answer：
+#1
+```js
+doSomething().then(() => {
+  return doSomethingElse();
+}).then(finalHandler);
+```
+答案：
+
+doSomething
+|---------|
+doSomethingElse(undefined)
+|------------|
+finalHandler(resultOfDoSomethingElse)
+|------------------|
+
+#2
+```js
+doSomething().then(() => {
+  doSomethingElse();
+}).then(finalHandler);
+```
+答案：
+
+doSomething
+|-----------------|
+doSomethingElse(undefined)
+|------------------|
+finalHandler(undefined)
+|------------------|
+
+#3
+```js
+doSomething().then(doSomethingElse())
+.then(finalHandler);
+```
+答案
+
+doSomething
+|-----------------|
+doSomethingElse(undefined)
+|---------------------------------|
+finalHandler(resultOfDoSomething)
+|------------------|
+
+#4
+```js
+doSomething().then(doSomethingElse)
+.then(finalHandler);
+```
+答案
+
+doSomething
+|-----------------|
+doSomethingElse(resultOfDoSomething)
+|------------------|
+finalHandler(resultOfDoSomethingElse)
+|------------------|

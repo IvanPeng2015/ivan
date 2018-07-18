@@ -20,6 +20,7 @@
   ```js
   new Promise( function(resolve, reject) {...} /* executor */  );
   ```
+  - [实现/细节](Promise实现.md)
 
 - Generator
 
@@ -28,6 +29,8 @@
 - Set/WeakSet
 
 - Proxy
+  - 定义/创建:
+  - 拦截
 
 - Iterable 可迭代协议
   - 概念: 允许 JavaScript 对象去定义或定制它们的迭代行为

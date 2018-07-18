@@ -8,7 +8,7 @@
 
   基本的库的设计遵从一系列准则。💾GitHub🔗：<https://github.com/reactjs/react-basic。>
 
-- Virtual DOM
+- [Virtual DOM](虚拟DOM.md)
 
 - setState function
 
