@@ -11,3 +11,6 @@
   5. allows servers to “push” responses proactively into client caches
 
   这里面具体需要前后端开发者实际操作的就是 server push, 服务器主动推资源
+
+### HTTP access control(CORS)
+- 概述: HTTP协议提供了一组Header字段来声明哪些来源具有权限访问哪些资源.
