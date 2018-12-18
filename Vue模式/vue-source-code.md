@@ -4,13 +4,7 @@
 
 抓住主线：从Vue构造函数的设计、原型的设计、选项的设计入手，紧接着从模版渲染、指令设计、数据绑定的实现入手，紧接着从virtual dom更新视图入手
 
-## 构造函数设计
-
-- `package.json` ->>
-
-- `npm run ${scripts}` ->>
-
-- config: `./build/config.js` ->>
+### 目录结构设计
 
 穿插: entry的那些path解析完全是由node API: `path.resolve()`加上简单自定义函数得到。
 
