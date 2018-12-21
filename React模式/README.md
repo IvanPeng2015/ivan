@@ -63,3 +63,8 @@ React组织好了组件，对于组件系统又会遇到以下几个问题：数
 数据的组织问题，使用redux的store数据结构组织，reducer就是一个单一函数，因此也就是reducer函数的拆分组织。
 
 - 组件的通信问题，使用dispatch action，简化的同步数据通信不存在什么模式，主要的问题在于异步通信。这里数据层通信方式的所有问题都可以通过redux中间件去解决，redux中间件是可以自定制的，目前的实践中常见的http请求、websocket接收都通过自定义方式。第三方处理比较深刻的是redux-thunk，以及redux-soga两个模块。
+
+## 实现
+- fiber架构为什么能起到作用? 如何实现的fiber架构?
+- reconciliation 调度算法是如何借助fiber数据结构完成的?
+- react hooks如何实现?
