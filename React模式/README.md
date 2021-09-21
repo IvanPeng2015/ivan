@@ -4,15 +4,17 @@
 
 ## react库本身遵从一些思路
 
-- react basic theoretical concepts
-
-  基本的库的设计遵从一系列准则。💾GitHub🔗：<https://github.com/reactjs/react-basic。>
+- [💾GitHub🔗：基础理论](https://github.com/reactjs/react-basic) React库的设计遵从一系列准则。
 
 - [Virtual DOM](虚拟DOM.md)
 
-- setState function
-
 - [React设计](React设计.md)
+
+## react function 组件
+
+- 函数式组件与函数实质区别
+
+- 自定义hooks
 
 ## react应用组件模式
 
